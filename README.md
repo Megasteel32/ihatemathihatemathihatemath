@@ -7,9 +7,11 @@ This Collatz dude in 1937 proposed the following (copied from [this](https://en.
 In simpler terms, pick a number and call it whatever you want. Yes, really. When asked if you can do this, my 7th grade math teacher spent the rest of the lesson naming all variables on the graph "Ralph" and I will continue that here. So we have a number Ralph. If Ralph is even, divide it by 2. If Ralph is odd, multiply Ralph by 3 and add 1. 
 
 For my visual learners: 
-$$
-f{(Ralph)}:\;_{\mathrm{if}\;Ralph\;\mod\;2\;=\;0:\;Ralph\;\ast\;3\;+\;1}^{\mathrm{if}\;Ralph\;\mod\;2\;=\;1:\;\frac{Ralph}2}
-$$
+
+```
+<img src="https://render.githubusercontent.com/render/math?math=f{(Ralph)}:\;_{\mathrm{if}\;Ralph\;\mod\;2\;=\;0:\;Ralph\;\ast\;3\;+\;1}^{\mathrm{if}\;Ralph\;\mod\;2\;=\;1:\;\frac{Ralph}2}">
+```
+
 Mod is short of modulus, or the remainder after division. Any even integer divided by 2 will always have a remainder of 0, and any odd integer divided by 2 will always have a remainder of 1. 
 
 It should be noted the Collatz conjecture has never been proven nor disproven, but all tested numbers thus far always reach 1. However, there has yet to be a mathematical function that proves the Collatz conjecture for all real integers (if you haven't figured it out, decimal numbers do not work). That's why I am trying to find out for all Real numbers from 1 to Googl (1 with 100 zeros) if there is even just one number that breaks the Collatz conjecture.
